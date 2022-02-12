@@ -1,0 +1,28 @@
+.product-category>a {
+    margin-right: 1.5rem;
+    color: var(--gray-text);
+    letter-spacing: 0.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product-category>a:hover {
+    color: var(--white-color);
+}
+
+.filter-container {
+    height: 10rem;
+    overflow: auto;
+}
+
+.filter-container::-webkit-scrollbar {
+    display: none;
+}
+
+.product-page-heading{
+    margin-top:5rem;
+}
+.product-page-heading>select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
