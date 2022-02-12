@@ -32,22 +32,25 @@
 
     .feature-section-layout {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
-    .footer-section-layout{
+    .footer-section-layout {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
-    .product-page-layout{
+
+    .product-page-layout {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
-    .filter-wrapper{
+
+    .filter-wrapper {
         display: none;
     }
-    .product-category{
+
+    .product-category {
         display: none;
         visibility: none;
     }
@@ -64,10 +67,8 @@
         grid-template-columns: 1fr;
     }
 
-    .footer-section-layout{
+    .footer-section-layout {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    
 }

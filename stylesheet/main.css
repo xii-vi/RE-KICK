@@ -1,5 +1,6 @@
-@import url("https://ra-one.netlify.app/stylesheet/main.css");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "https://ra-one.netlify.app/stylesheet/main.css";
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+
 @import "/stylesheet/homepage.css";
 @import "/stylesheet/layout.css";
 @import "/stylesheet/productpage.css";
