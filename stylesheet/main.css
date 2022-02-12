@@ -1,0 +1,25 @@
+@import url("https://ra-one.netlify.app/stylesheet/main.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "/stylesheet/homepage.css";
+@import "/stylesheet/layout.css";
+@import "/stylesheet/productpage.css";
+
+:root{
+    --primary-color: #161616;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn-floating{
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}

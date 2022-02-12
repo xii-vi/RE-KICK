@@ -1,0 +1,53 @@
+.slideshow-slides {
+  display: none;
+}
+
+.category-heading {
+  letter-spacing: 0.5rem;
+  font-family: monospace;
+}
+
+.navbar-wrapper{
+  display: grid;
+  grid-template-rows: 1fr;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar{
+  background-color: var(--black-color);
+  align-items: space-between;
+  justify-content: space-between;
+  border-radius: 0;
+}
+.search-bar-wrapper>input{
+padding: 0.5rem;
+border-radius: 0.5rem;
+margin-right: 0.2rem;
+width:20vw;
+outline: none;
+border:none;
+}
+.nav-left-side-pills>i{
+margin: 0 0.5rem 0 0.5rem;
+cursor: pointer;
+}
+.text-overlay{
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  top: 2rem;
+  letter-spacing: 0.5rem;
+  font-family: monospace;
+  text-align: center;
+}
+.card-wrapper:hover{
+  box-shadow: 3px solid black;
+  cursor: pointer;
+  transition: all 0.4ms;
+}
+.footer-heading{
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
