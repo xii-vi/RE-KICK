@@ -28,6 +28,7 @@
     .product-section-layout {
         display: grid;
         grid-template-columns: auto auto;
+        margin: 2rem;
     }
 
     .feature-section-layout {
