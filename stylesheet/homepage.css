@@ -8,8 +8,6 @@
 }
 
 .navbar-wrapper{
-  display: grid;
-  grid-template-rows: 1fr;
   position: sticky;
   z-index: 1;
   top: 0;

@@ -1,0 +1,12 @@
+.wishlist-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--dnd-color);
+}
+.card-wrapper .btn{
+    width: 100%;
+}

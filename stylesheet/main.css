@@ -4,7 +4,7 @@
 @import "/stylesheet/homepage.css";
 @import "/stylesheet/layout.css";
 @import "/stylesheet/productpage.css";
-
+@import "/stylesheet/wishlist.css";
 :root{
     --primary-color: #161616;
 }
@@ -13,14 +13,22 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family: 'Bebas Neue', cursive;
 }
-
 .btn-floating{
     background-color: var(--primary-color);
     position: fixed;
     bottom: 10px;
     right: 0;
+}
+.nav-left-side-pills>a{
+    margin: 0 1rem;
+}
+.card-wrapper{
+    transition: 0.4s ease;
+}
+.card-wrapper:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
