@@ -25,3 +25,10 @@ body{
 .nav-left-side-pills>a{
     margin: 0 1rem;
 }
+.card-wrapper{
+    transition: 0.4s ease;
+}
+.card-wrapper:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
