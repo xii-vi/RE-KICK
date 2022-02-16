@@ -7,6 +7,7 @@
 @import "/stylesheet/wishlist.css";
 :root{
     --primary-color: #161616;
+    --final-price-card-shadow: #00000030;
 }
 * {
     box-sizing: border-box;
