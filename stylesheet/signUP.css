@@ -1,0 +1,33 @@
+body {
+    background-image: url(/assests/24c452cf0422adb434a058e87fced33b.jpg);
+    background-repeat: repeat;
+}
+form{
+    background-image: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 40rem;
+    margin: 0;
+}
+.btn-primary{
+color: var(--primary-color);
+background-color: var(--white-color);
+}
+
+.container-authentication{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+@media screen and (max-width: 710px){
+    form{
+        width: auto;
+    }
+    .container-authentication{
+        margin-top: 5rem;
+    }
+    .product-category{
+        display: none;
+    }
+}
