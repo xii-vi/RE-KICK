@@ -6,7 +6,7 @@ form{
     background-color: whitesmoke;
     height: 35rem;
     margin: 2rem;
-    background-image: url(/assests/6111326.webp);
+    background-image: url(/assests/form-bg.webp);
     background-size: cover;
 }
 .btn {
@@ -14,7 +14,7 @@ form{
 }
 
 body {
-    background-image: url(/assests/5482402.jpg);
+    background-image: url(/assests/login-bg.jpg);
     background-repeat: repeat;
     background-size:cover;
 }

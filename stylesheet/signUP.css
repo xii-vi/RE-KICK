@@ -1,13 +1,14 @@
 body {
-    background-image: url(/assests/24c452cf0422adb434a058e87fced33b.jpg);
+    background-image: url(/assests/signup-bg.jpg);
     background-repeat: repeat;
+    background-size:cover;
 }
 form{
     background-image: none;
-    background-color: var(--primary-color);
+    background-color: transparent;
     color: var(--white-color);
-    width: 40rem;
     margin: 0;
+    height: fit-content;
 }
 .btn-primary{
 color: var(--primary-color);
