@@ -1,0 +1,34 @@
+body {
+    background-image: url(/assests/signup-bg.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+}
+form{
+    background-image: none;
+    background-color: transparent;
+    color: var(--white-color);
+    margin: 0;
+    height: fit-content;
+}
+.btn-primary{
+color: var(--primary-color);
+background-color: var(--white-color);
+}
+
+.container-authentication{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+@media screen and (max-width: 710px){
+    form{
+        width: auto;
+    }
+    .container-authentication{
+        margin-top: 5rem;
+    }
+    .product-category{
+        display: none;
+    }
+}
