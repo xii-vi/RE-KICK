@@ -33,7 +33,15 @@
                 <a href="#"><i class="fa fa-search"></i></a>
                 <a href="/pages/wishlist.html"><i class="far fa-heart"></i></a>
                 <a href="/pages/cart.html"><i class="fa fa-shopping-bag"></i></a>
-                <i class="far fa-user"></i>
+                <div class="profile-dropdown pl-4">
+                    <a href="#" id="profile"><i class="far fa-user"></i></a>
+                    <div class="dropdown-menu m-1">
+                        <p><i class="fa fa-heart mr-2"></i><a href="/pages/wishlist.html">Wishlist</a></p>
+                        <p><i class="fa fa-shopping-bag mr-2"></i><a href="/pages/cart.html">My Cart</a></p>
+                        <hr />
+                        <p><a href="/index.html">Logout</a></p>
+                    </div>
+                </div>
             </div>
         </nav>
     </div>
@@ -52,10 +60,10 @@
                         <button><i class="fa fa-minus p-1"></i></button><span class="text-bold mx-2">1</span>
                         <button><i class="fa fa-plus p-1"></i></button>
                     </div>
-                        <button class="btn btn-outline-primary mt-2 mr-2"><i class="fa fa-heart mr-2"></i>
-                            Add to Wishlist</button>
-                        <button class="btn btn-primary mt-2"><i class="fa fa-shopping-bag mr-2"></i>
-                            Add to Bag</button>
+                    <button class="btn btn-outline-primary mt-2 mr-2"><i class="fa fa-heart mr-2"></i>
+                        Add to Wishlist</button>
+                    <button class="btn btn-primary mt-2"><i class="fa fa-shopping-bag mr-2"></i>
+                        Add to Bag</button>
                     <div class="remove-icon p-2">
                         <i class="fas fa-trash"></i>
                     </div>
@@ -107,6 +115,45 @@
         </div>
     </div>
     </div>
+    <footer class="footer-section-layout p-4">
+        <div class="text-center py-5">
+            <p class="footer-heading py-2">IMPORTANT LINKS</p>
+            <a href="#">
+                <li class="gray-text pt-2">Refunds/Cancellation</li>
+            </a>
+            <a href="#">
+                <li class="gray-text pt-2">Terms and Conditions</li>
+            </a>
+            <a href="#">
+                <li class="gray-text pt-2">FAQs</li>
+            </a>
+            <a href="#">
+                <li class="gray-text pt-2">Privacy Policy</li>
+            </a>
+        </div>
+        <div class="text-center">
+            <p class="footer-heading py-2">NEED HELP?</p>
+            <a href="#">
+                <li class="gray-text pt-2">My Account</li>
+            </a>
+            <a href="#">
+                <li class="gray-text pt-2">Size Chart</li>
+            </a>
+            <a href="#">
+                <li class="gray-text pt-2">Contact Us</li>
+            </a>
+        </div>
+        <div class="text-center">
+            <p class="footer-heading py-4">Follow Us</p>
+            <a href="#"><i class="fab fa-instagram fa-2x mr-2 cursor-pointer"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x mr-2 cursor-pointer"></i></a>
+            <a href="#"><i class="fa fa-globe fa-2x mr-2 cursor-pointer"></i></a>
+        </div>
+        <div class="text-center">
+            <p class="footer-heading py-3">© 2022 RA-One Tech LLP</p>
+            <small class="gray-text">All rights reserved.</small>
+        </div>
+    </footer>
 </body>
 
 </html>
