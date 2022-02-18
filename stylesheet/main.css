@@ -5,6 +5,7 @@
 @import "/stylesheet/layout.css";
 @import "/stylesheet/productpage.css";
 @import "/stylesheet/wishlist.css";
+
 :root{
     --primary-color: #161616;
     --final-price-card-shadow: #00000030;
@@ -32,4 +33,51 @@ body{
 .card-wrapper:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.profile-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    right: 0;
+    width: 10rem;
+}
+.profile-dropdown:hover .dropdown-menu{
+display: block;
+}
+
+.dropdown-menu>p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 550px){
+
+.category-heading{
+    font-size: 80%;
+}
+.navbar{
+    padding: 2rem 0.8rem;
+}
+.search-bar-wrapper{
+    display: none;
+}
+#login-btn{
+    display: none;
+}
+.footer-heading{
+    font-size: 85%;
+}
+.gray-text{
+    font-size: 85%;
+}
+.img-responsive{
+    aspect-ratio: 2/1;
+  }
 }
