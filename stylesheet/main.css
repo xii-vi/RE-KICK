@@ -1,5 +1,5 @@
-@import "https://ra-one.netlify.app/stylesheet/main.css";
-@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "https://re-ui.netlify.app/stylesheet/main.css";
+@import "https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap";
 
 @import "/stylesheet/homepage.css";
 @import "/stylesheet/layout.css";
@@ -16,7 +16,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'PT Sans', sans-serif;
 }
 .btn-floating{
     background-color: var(--primary-color);
@@ -60,7 +60,7 @@ display: block;
 @media screen and (max-width: 550px){
 
 .category-heading{
-    font-size: 80%;
+    font-size: 1rem;
 }
 .navbar{
     padding: 2rem 0.8rem;
