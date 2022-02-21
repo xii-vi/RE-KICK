@@ -18,10 +18,13 @@
     display: none;
 }
 
-.product-page-heading{
-    margin-top:5rem;
+.product-page-heading {
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
 }
-.product-page-heading>select{
+
+.product-page-heading>select {
     background-color: transparent;
     border: none;
     outline: none;
