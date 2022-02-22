@@ -16,25 +16,29 @@
 
     <div class="navbar-wrapper">
         <nav class="flex navbar">
+            <a id="open-menu" class="open-menu"><i class="fa fa-bars fa-2x"></i></a>
+            <a id="close-menu" class="close-menu"><i class="fa fa-times fa-2x"></i></a>
+            <div class="mobile-sidebar" id="sm-sidebar">
+            </div>
             <div class="logo">
                 <span class="category-heading h2"><a href="/index.html">RE-KICKS</a></span>
             </div>
             <div class="product-category">
-                <a href="">NEW ARRIVALS</a>
+                <a href="#">NEW ARRIVALS</a>
                 <a href="/pages/product-page/sneaker.html">SNEAKERS</a>
                 <a href="/pages/product-page/streetwear.html">STREETWEARS</a>
-                <a href="">ACCESSORIES</a>
-                <a href="">BRANDS</a>
-                <a href="">HEAT</a>
-                <a href="">BLOG</a>
-                <a href="">SALE</a>
+                <a href="#">ACCESSORIES</a>
+                <a href="#">BRANDS</a>
+                <a href="#">HEAT</a>
+                <a href="#">BLOG</a>
+                <a href="#">SALE</a>
             </div>
             <div class="nav-left-side-pills">
                 <a href="#"><i class="fa fa-search"></i></a>
                 <a href="/pages/login.html" class="btn btn-primary" id="login-btn">Login</a>
-                <a href="/pages/wishlist.html"><i class="far fa-heart"></i></a>
-                <a href="/pages/cart.html"><i class="fa fa-shopping-bag"></i></a>
-                <a href="/pages/login.html"><i class="far fa-user"></i></a>
+                <a href="/pages/wishlist.html" id="wishlist"><i class="far fa-heart"></i></a>
+                <a href="/pages/cart.html" id="cart"><i class="fa fa-shopping-bag"></i></a>
+                <a href="/pages/login.html" id="user"><i class="far fa-user"></i></a>
             </div>
         </nav>
     </div>
@@ -42,7 +46,7 @@
     <div class="grid product-page-layout" id="top-of-page">
         <div>
             <p class="p-5 heading-lg-screen">
-                <a href="/index.html">Home</a><span class="gray-text"><a href="/pages/product-page/sneaker.html"> /
+                <a href="/index.html">Home</a><span class="active-page-text"><a href="/pages/product-page/sneaker.html"> /
                         Sneaker</a></span>
             </p>
             <div class="filter">
@@ -51,9 +55,12 @@
         <div>
             <div class="product-page-heading p-2">
                 <p class="heading-sm-screen">
-                    <a href="/index.html">Home</a><span class="gray-text"><a href="/pages/product-page/sneaker.html"> /
-                            Sneaker</a></span>
+                    <a href="/index.html">Home</a><span class="active-page-text">
+                        <a href="/pages/product-page/sneaker.html"> / Sneaker</a></span>
                 </p>
+                <div class="filter-icon">
+                    <a id="filter-icon">Filter <i class="fa fa-filter fa-2x"></i></a>
+                </div>
                 <h2>SNEAKERS</h2>
                 <select>
                     <option value="Sort by Popularity">Sort by Popularity</option>
@@ -61,6 +68,203 @@
                     <option value="Sort by Price: Low to High">Sort by Price: Low to High</option>
                     <option value="Sort by Price: High to Low">Sort by Price: High to Low</option>
                 </select>
+                <div class="sm-filter hide">
+                    <div class="sm-filter-container">
+                        <a id="close-icon" class="close-icon"><i class="fa fa-times fa-2x"></i></a>
+                        <p class="py-4">FILTER & SEARCH</p>
+                        <div class="flex flex-direction-col">
+                            <p class="py-4">Filter by Gender</p>
+                            <label class="py-1" for="All Genders">
+                                <input type="radio" value="All Genders" name="radio-button" /> All Genders
+                            </label>
+                            <label class="py-1" for="Men">
+                                <input type="radio" value="Men" name="radio-button" /> Men
+                            </label>
+                            <label class="py-1" for="Women">
+                                <input type="radio" value="Women" name="radio-button" /> Women
+                            </label>
+                        </div>
+                        <p class="py-4">Filter by Price</p>
+                        <div class="flex flex-direction-col">
+                            <input class="simple-slider" id="slider-value" type="range" min="5000" max="50000"
+                                value="10000" />
+                        </div>
+                        <div class="mt-5">
+                            <span class="btn btn-primary">5000</span>
+                            <span id="value" class="btn btn-primary">10000</span>
+                        </div>
+
+
+                        <p class="py-4">Filter by Rating</p>
+                        <div class="flex flex-direction-col">
+                            <label class="py-1"><input type="checkbox" />
+                                4★ & above
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                3★ & above
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                2★ & above
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                1★ & above
+                            </label>
+                        </div>
+
+                        <p class="py-4">Filter by Shoe Size</p>
+                        <div class="flex flex-direction-col filter-container">
+                            <label class="py-1"><input type="checkbox" />
+                                5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                5.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                6
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                6.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                7
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                7.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                8
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                8.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                9
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                9.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                10
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                10.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                11
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                11.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                12
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                12.5
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                13
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                13.5
+                            </label>
+                        </div>
+
+                        <p class="py-4">Filter by Brand</p>
+                        <div class="flex flex-direction-col filter-container">
+                            <label class="py-1"><input type="checkbox" />
+                                Adidas
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Adidas Originals
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Asics
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Converse
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Crocs
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Fila
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                New Balance
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Nike
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Puma
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Reebok
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Vans
+                            </label>
+                        </div>
+
+                        <p class="py-4">Filter by Color</p>
+                        <div class="flex flex-direction-col filter-container">
+                            <label class="py-1"><input type="checkbox" />
+                                Black
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Blue
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Brown
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Cream
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Gold
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Green
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Grey
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Maroon
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Multi
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Orange
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Pink
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Purple
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Red
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Silver
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                White
+                            </label>
+                            <label class="py-1"><input type="checkbox" />
+                                Yellow
+                            </label>
+                        </div>
+
+                        <div class=" text-center mt-4">
+                            <button class="btn btn-primary p-3">Apply Filters</button>
+                            <p class="py-2 active-page-text">Reset Filters</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
             <div class="grid product-section-layout my-5">
@@ -215,10 +419,12 @@
     </div>
     <div class="footer"></div>
     <a href="#top-of-page" class="btn btn-floating arrow mr-2">
-        <i class="fas fa-arrow-up"></i></a>
-    <script src="https://re-ui.netlify.app/javascript/slider.js" type="text/javascript"></script>
+        <i class="fas fa-arrow-up"></i>
+    </a>
     <script src="/js/filter.js"></script>
     <script src="/js/footer.js"></script>
+    <script src="/js/hamburger.js"></script>
+    <script src="/js/sm-filter.js"></script>
 </body>
 
 </html>
