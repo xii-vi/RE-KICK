@@ -81,7 +81,6 @@
         display: none;
     }
     .sm-filter{
-        width: 45%;
         position: fixed;
         z-index: 2;
         margin-top: 0.5rem;
