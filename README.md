@@ -23,9 +23,16 @@
 | Background Color | ![#dfdfdf](https://via.placeholder.com/40/dfdfdf;?text=+) #dfdfdf
 
 
+## Major Highlights of RE-Kick
+
+- Fully Responsive
+- Minimal Interface
+- User friendly design
+- Optimized for better performance
+
 ## Features of E-commerce Application
 
-- Fully Responsive Application
+- Quick overview
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/86154835/154981373-520ddb78-8063-41e4-8194-10b1f0e23083.gif)
 
 
