@@ -49,7 +49,9 @@
         grid-template-columns: auto auto;
         margin: 2rem;
     }
-
+    .filter-wrapper{
+        display: none;
+    }
     .feature-section-layout {
         display: grid;
         grid-template-columns: 1fr;
@@ -60,21 +62,12 @@
         grid-template-columns: 1fr;
     }
 
-    .filter-wrapper {
-        display: none;
-    }
-
     .heading-sm-screen {
         display: block;
     }
 
     .heading-lg-screen {
         display: none;
-    }
-
-    .product-category {
-        display: none;
-        visibility: none;
     }
 
     .wishlist-section-layout {
@@ -86,6 +79,21 @@
 
     .search-bar-wrapper {
         display: none;
+    }
+    .sm-filter{
+        width: 45%;
+        position: fixed;
+        z-index: 2;
+        margin-top: 0.5rem;
+        padding: 1.5rem;
+        right: 0;
+        top: 5.4rem;
+        opacity: 0.98;
+        background-color: var(--background-color);
+        height: 80vh;
+        overflow-y: scroll;
+        border-radius: 10px;
+        border: 1px solid var(--black-color);
     }
 }
 

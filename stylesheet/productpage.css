@@ -29,3 +29,12 @@
     border: none;
     outline: none;
 }
+
+.gray-text:hover {
+    color: var(--white-color);
+    font-size: 110%;
+}
+
+.active-page-text{
+    color: var(--active-page-title-text);
+}

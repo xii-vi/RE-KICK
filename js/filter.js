@@ -187,7 +187,7 @@ const filterComp = document.querySelector(".filter").innerHTML = `<div class="ml
 
 <div class=" text-center mt-4">
     <button class="btn btn-primary p-3">Apply Filters</button>
-    <p class="py-2 gray-text"><a>Reset Filters</a></p>
+    <p class="py-2 active-page-text"><a>Reset Filters</a></p>
 </div>
 
 </div>`
